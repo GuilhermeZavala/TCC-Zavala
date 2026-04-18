@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('profissionais', function () {
+    return view('profissionais');
+});
+
 
 Route::resource('postagens', PostController::class)->only([
     'index', 'show'
