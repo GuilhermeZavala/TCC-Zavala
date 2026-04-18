@@ -15,7 +15,7 @@ use App\Http\Controllers\PostController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pagina_inicial');
 });
 
 Route::get('profissionais', function () {
