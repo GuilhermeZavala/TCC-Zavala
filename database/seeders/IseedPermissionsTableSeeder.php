@@ -339,6 +339,46 @@ class IseedPermissionsTableSeeder extends Seeder
                 'created_at' => '2024-01-28 05:35:48',
                 'updated_at' => '2024-01-28 05:35:48',
             ),
+            40 => 
+            array (
+                'id' => 41,
+                'key' => 'browse_profissionais',
+                'table_name' => 'profissionais',
+                'created_at' => '2026-05-30 19:44:28',
+                'updated_at' => '2026-05-30 19:44:28',
+            ),
+            41 => 
+            array (
+                'id' => 42,
+                'key' => 'read_profissionais',
+                'table_name' => 'profissionais',
+                'created_at' => '2026-05-30 19:44:28',
+                'updated_at' => '2026-05-30 19:44:28',
+            ),
+            42 => 
+            array (
+                'id' => 43,
+                'key' => 'edit_profissionais',
+                'table_name' => 'profissionais',
+                'created_at' => '2026-05-30 19:44:28',
+                'updated_at' => '2026-05-30 19:44:28',
+            ),
+            43 => 
+            array (
+                'id' => 44,
+                'key' => 'add_profissionais',
+                'table_name' => 'profissionais',
+                'created_at' => '2026-05-30 19:44:28',
+                'updated_at' => '2026-05-30 19:44:28',
+            ),
+            44 => 
+            array (
+                'id' => 45,
+                'key' => 'delete_profissionais',
+                'table_name' => 'profissionais',
+                'created_at' => '2026-05-30 19:44:28',
+                'updated_at' => '2026-05-30 19:44:28',
+            ),
         ));
         
         

@@ -127,6 +127,24 @@ class IseedDataTypesTableSeeder extends Seeder
                 'created_at' => '2024-01-28 05:35:48',
                 'updated_at' => '2024-01-28 05:35:48',
             ),
+            6 => 
+            array (
+                'id' => 8,
+                'name' => 'profissionais',
+                'slug' => 'profissionais',
+                'display_name_singular' => 'Profissional',
+                'display_name_plural' => 'Profissionais',
+                'icon' => 'voyager-person',
+                'model_name' => 'App\\Models\\Profissional',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\VoyagerController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'created_at' => '2026-05-30 19:44:25',
+                'updated_at' => '2026-05-30 19:44:25',
+            ),
         ));
         
         
