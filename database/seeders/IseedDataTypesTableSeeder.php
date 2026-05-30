@@ -141,9 +141,9 @@ class IseedDataTypesTableSeeder extends Seeder
                 'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2026-05-30 19:44:25',
-                'updated_at' => '2026-05-30 19:44:25',
+                'updated_at' => '2026-05-30 20:29:22',
             ),
         ));
         

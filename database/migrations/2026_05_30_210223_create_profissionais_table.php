@@ -23,6 +23,8 @@ return new class extends Migration
             $table->text('email');
             $table->text('carteira_identidade_proficional')->nullable();
             $table->timestamps();
+            $table->text('linkedin')->nullable();
+            $table->text('youtube')->nullable();
         });
     }
 

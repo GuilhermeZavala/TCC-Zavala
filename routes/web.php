@@ -15,7 +15,8 @@ use App\Http\Controllers\PostController;
 */
 
 Route::get('/', function () {
-    return view('pagina_inicial');
+    $profissionais = App\Models\Profissional::all();
+    return view('pagina_inicial',compact('profissionais'));
 });
 
 Route::get('profissionais', function () {

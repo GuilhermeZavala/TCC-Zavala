@@ -1059,6 +1059,38 @@ class IseedDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 10,
             ),
+            65 => 
+            array (
+                'id' => 66,
+                'data_type_id' => 8,
+                'field' => 'linkedin',
+                'type' => 'text',
+                'display_name' => 'Linkedin',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 11,
+            ),
+            66 => 
+            array (
+                'id' => 67,
+                'data_type_id' => 8,
+                'field' => 'youtube',
+                'type' => 'text',
+                'display_name' => 'Youtube',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{}',
+                'order' => 12,
+            ),
         ));
         
         
