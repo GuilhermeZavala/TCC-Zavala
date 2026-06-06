@@ -379,6 +379,46 @@ class IseedPermissionsTableSeeder extends Seeder
                 'created_at' => '2026-05-30 19:44:28',
                 'updated_at' => '2026-05-30 19:44:28',
             ),
+            45 => 
+            array (
+                'id' => 46,
+                'key' => 'browse_certificacoes',
+                'table_name' => 'certificacoes',
+                'created_at' => '2026-06-06 20:02:40',
+                'updated_at' => '2026-06-06 20:02:40',
+            ),
+            46 => 
+            array (
+                'id' => 47,
+                'key' => 'read_certificacoes',
+                'table_name' => 'certificacoes',
+                'created_at' => '2026-06-06 20:02:40',
+                'updated_at' => '2026-06-06 20:02:40',
+            ),
+            47 => 
+            array (
+                'id' => 48,
+                'key' => 'edit_certificacoes',
+                'table_name' => 'certificacoes',
+                'created_at' => '2026-06-06 20:02:40',
+                'updated_at' => '2026-06-06 20:02:40',
+            ),
+            48 => 
+            array (
+                'id' => 49,
+                'key' => 'add_certificacoes',
+                'table_name' => 'certificacoes',
+                'created_at' => '2026-06-06 20:02:40',
+                'updated_at' => '2026-06-06 20:02:40',
+            ),
+            49 => 
+            array (
+                'id' => 50,
+                'key' => 'delete_certificacoes',
+                'table_name' => 'certificacoes',
+                'created_at' => '2026-06-06 20:02:40',
+                'updated_at' => '2026-06-06 20:02:40',
+            ),
         ));
         
         

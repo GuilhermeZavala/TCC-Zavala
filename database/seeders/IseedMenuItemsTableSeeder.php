@@ -291,6 +291,22 @@ class IseedMenuItemsTableSeeder extends Seeder
                 'route' => 'voyager.profissionais.index',
                 'parameters' => NULL,
             ),
+            17 => 
+            array (
+                'id' => 18,
+                'menu_id' => 1,
+                'title' => 'Certificações',
+                'url' => '',
+                'target' => '_self',
+                'icon_class' => 'voyager-certificate',
+                'color' => NULL,
+                'parent_id' => NULL,
+                'order' => 16,
+                'created_at' => '2026-06-06 20:02:40',
+                'updated_at' => '2026-06-06 20:02:40',
+                'route' => 'voyager.certificacoes.index',
+                'parameters' => NULL,
+            ),
         ));
         
         

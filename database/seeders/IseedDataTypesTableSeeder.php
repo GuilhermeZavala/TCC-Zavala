@@ -145,6 +145,24 @@ class IseedDataTypesTableSeeder extends Seeder
                 'created_at' => '2026-05-30 19:44:25',
                 'updated_at' => '2026-05-30 20:29:22',
             ),
+            7 => 
+            array (
+                'id' => 9,
+                'name' => 'certificacoes',
+                'slug' => 'certificacoes',
+                'display_name_singular' => 'Certificação',
+                'display_name_plural' => 'Certificações',
+                'icon' => 'voyager-certificate',
+                'model_name' => 'App\\Models\\Certificacao',
+                'policy_name' => NULL,
+                'controller' => 'App\\Http\\Controllers\\VoyagerController',
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2026-06-06 20:02:39',
+                'updated_at' => '2026-06-06 20:04:16',
+            ),
         ));
         
         
