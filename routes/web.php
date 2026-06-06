@@ -20,7 +20,8 @@ Route::get('/', function () {
 });
 
 Route::get('profissionais', function () {
-    return view('profissionais');
+    $profissionais = App\Models\Profissional::all();
+    return view('profissionais', compact('profissionais'));
 });
 
 
