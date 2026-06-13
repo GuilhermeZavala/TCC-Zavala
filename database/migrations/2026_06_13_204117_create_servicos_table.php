@@ -13,10 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('servicos_oferecidos', function (Blueprint $table) {
+        Schema::create('servicos', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('servico')->nullable();
-            $table->float('preco_total', 10, 0)->nullable();
+            $table->text('titulo')->nullable();
+            $table->text('descricao')->nullable();
+            $table->integer('frequencia')->nullable();
+            $table->float('desconto', 10, 0)->nullable();
+            $table->timestamps();
         });
     }
 
@@ -27,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('servicos_oferecidos');
+        Schema::dropIfExists('servicos');
     }
 };

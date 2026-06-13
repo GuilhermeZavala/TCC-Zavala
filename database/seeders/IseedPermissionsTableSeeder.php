@@ -419,6 +419,206 @@ class IseedPermissionsTableSeeder extends Seeder
                 'created_at' => '2026-06-06 20:02:40',
                 'updated_at' => '2026-06-06 20:02:40',
             ),
+            50 => 
+            array (
+                'id' => 51,
+                'key' => 'browse_especialidades',
+                'table_name' => 'especialidades',
+                'created_at' => '2026-06-13 20:09:14',
+                'updated_at' => '2026-06-13 20:09:14',
+            ),
+            51 => 
+            array (
+                'id' => 52,
+                'key' => 'read_especialidades',
+                'table_name' => 'especialidades',
+                'created_at' => '2026-06-13 20:09:14',
+                'updated_at' => '2026-06-13 20:09:14',
+            ),
+            52 => 
+            array (
+                'id' => 53,
+                'key' => 'edit_especialidades',
+                'table_name' => 'especialidades',
+                'created_at' => '2026-06-13 20:09:14',
+                'updated_at' => '2026-06-13 20:09:14',
+            ),
+            53 => 
+            array (
+                'id' => 54,
+                'key' => 'add_especialidades',
+                'table_name' => 'especialidades',
+                'created_at' => '2026-06-13 20:09:14',
+                'updated_at' => '2026-06-13 20:09:14',
+            ),
+            54 => 
+            array (
+                'id' => 55,
+                'key' => 'delete_especialidades',
+                'table_name' => 'especialidades',
+                'created_at' => '2026-06-13 20:09:14',
+                'updated_at' => '2026-06-13 20:09:14',
+            ),
+            55 => 
+            array (
+                'id' => 56,
+                'key' => 'browse_estabelecimentos',
+                'table_name' => 'estabelecimentos',
+                'created_at' => '2026-06-13 20:12:05',
+                'updated_at' => '2026-06-13 20:12:05',
+            ),
+            56 => 
+            array (
+                'id' => 57,
+                'key' => 'read_estabelecimentos',
+                'table_name' => 'estabelecimentos',
+                'created_at' => '2026-06-13 20:12:05',
+                'updated_at' => '2026-06-13 20:12:05',
+            ),
+            57 => 
+            array (
+                'id' => 58,
+                'key' => 'edit_estabelecimentos',
+                'table_name' => 'estabelecimentos',
+                'created_at' => '2026-06-13 20:12:05',
+                'updated_at' => '2026-06-13 20:12:05',
+            ),
+            58 => 
+            array (
+                'id' => 59,
+                'key' => 'add_estabelecimentos',
+                'table_name' => 'estabelecimentos',
+                'created_at' => '2026-06-13 20:12:05',
+                'updated_at' => '2026-06-13 20:12:05',
+            ),
+            59 => 
+            array (
+                'id' => 60,
+                'key' => 'delete_estabelecimentos',
+                'table_name' => 'estabelecimentos',
+                'created_at' => '2026-06-13 20:12:05',
+                'updated_at' => '2026-06-13 20:12:05',
+            ),
+            60 => 
+            array (
+                'id' => 61,
+                'key' => 'browse_servicos',
+                'table_name' => 'servicos',
+                'created_at' => '2026-06-13 20:19:30',
+                'updated_at' => '2026-06-13 20:19:30',
+            ),
+            61 => 
+            array (
+                'id' => 62,
+                'key' => 'read_servicos',
+                'table_name' => 'servicos',
+                'created_at' => '2026-06-13 20:19:30',
+                'updated_at' => '2026-06-13 20:19:30',
+            ),
+            62 => 
+            array (
+                'id' => 63,
+                'key' => 'edit_servicos',
+                'table_name' => 'servicos',
+                'created_at' => '2026-06-13 20:19:30',
+                'updated_at' => '2026-06-13 20:19:30',
+            ),
+            63 => 
+            array (
+                'id' => 64,
+                'key' => 'add_servicos',
+                'table_name' => 'servicos',
+                'created_at' => '2026-06-13 20:19:30',
+                'updated_at' => '2026-06-13 20:19:30',
+            ),
+            64 => 
+            array (
+                'id' => 65,
+                'key' => 'delete_servicos',
+                'table_name' => 'servicos',
+                'created_at' => '2026-06-13 20:19:30',
+                'updated_at' => '2026-06-13 20:19:30',
+            ),
+            65 => 
+            array (
+                'id' => 66,
+                'key' => 'browse_servicos_oferecidos',
+                'table_name' => 'servicos_oferecidos',
+                'created_at' => '2026-06-13 20:22:41',
+                'updated_at' => '2026-06-13 20:22:41',
+            ),
+            66 => 
+            array (
+                'id' => 67,
+                'key' => 'read_servicos_oferecidos',
+                'table_name' => 'servicos_oferecidos',
+                'created_at' => '2026-06-13 20:22:41',
+                'updated_at' => '2026-06-13 20:22:41',
+            ),
+            67 => 
+            array (
+                'id' => 68,
+                'key' => 'edit_servicos_oferecidos',
+                'table_name' => 'servicos_oferecidos',
+                'created_at' => '2026-06-13 20:22:41',
+                'updated_at' => '2026-06-13 20:22:41',
+            ),
+            68 => 
+            array (
+                'id' => 69,
+                'key' => 'add_servicos_oferecidos',
+                'table_name' => 'servicos_oferecidos',
+                'created_at' => '2026-06-13 20:22:41',
+                'updated_at' => '2026-06-13 20:22:41',
+            ),
+            69 => 
+            array (
+                'id' => 70,
+                'key' => 'delete_servicos_oferecidos',
+                'table_name' => 'servicos_oferecidos',
+                'created_at' => '2026-06-13 20:22:41',
+                'updated_at' => '2026-06-13 20:22:41',
+            ),
+            70 => 
+            array (
+                'id' => 71,
+                'key' => 'browse_curriculo',
+                'table_name' => 'curriculo',
+                'created_at' => '2026-06-13 20:33:39',
+                'updated_at' => '2026-06-13 20:33:39',
+            ),
+            71 => 
+            array (
+                'id' => 72,
+                'key' => 'read_curriculo',
+                'table_name' => 'curriculo',
+                'created_at' => '2026-06-13 20:33:39',
+                'updated_at' => '2026-06-13 20:33:39',
+            ),
+            72 => 
+            array (
+                'id' => 73,
+                'key' => 'edit_curriculo',
+                'table_name' => 'curriculo',
+                'created_at' => '2026-06-13 20:33:39',
+                'updated_at' => '2026-06-13 20:33:39',
+            ),
+            73 => 
+            array (
+                'id' => 74,
+                'key' => 'add_curriculo',
+                'table_name' => 'curriculo',
+                'created_at' => '2026-06-13 20:33:39',
+                'updated_at' => '2026-06-13 20:33:39',
+            ),
+            74 => 
+            array (
+                'id' => 75,
+                'key' => 'delete_curriculo',
+                'table_name' => 'curriculo',
+                'created_at' => '2026-06-13 20:33:39',
+                'updated_at' => '2026-06-13 20:33:39',
+            ),
         ));
         
         
