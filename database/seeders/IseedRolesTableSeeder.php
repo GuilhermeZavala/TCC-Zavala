@@ -35,6 +35,14 @@ class IseedRolesTableSeeder extends Seeder
                 'created_at' => '2024-01-28 05:35:48',
                 'updated_at' => '2024-01-28 05:35:48',
             ),
+            2 => 
+            array (
+                'id' => 3,
+                'name' => 'profissional',
+                'display_name' => 'profissional',
+                'created_at' => '2026-06-13 19:33:13',
+                'updated_at' => '2026-06-13 19:33:13',
+            ),
         ));
         
         
