@@ -10,21 +10,11 @@
               <div class="col-lg-10 col-md-11 mx-auto">
                 <div class="detail-box">
                   <div>
-                    <h3>
-                    ACHE
-                    </h3>
-                    <h2>
-                      SEU
-                    </h2>
-                    <h1>
-                      PERSONAL TRAINER
-                    </h1>
-                    <p>
-                      NESSE SITE VOCÊ CONSEGUE ACHAR OS MELHORES PERSONAIS TRAINERS DA SUA REGIÃO, OS MAIS CAPACITADOS E ACHAR O MELHOR PERSONAL PARA SUAS NECESSIDADES
-                    </p>
+                  <h3> ENCONTRE </h3>
+                    <h2> O PROFISSIONAL </h2> <h1> IDEAL PARA VOCÊ </h1> <p> Compare profissionais, conheça suas especialidades e encontre alguém preparado para ajudar você a alcançar seus objetivos. </p>
                     <div class="">
-                      <a href="">
-                        Contact Us
+                      <a href="/profissionais">
+                         VER PROFISSIONAIS
                       </a>
                     </div>
                   </div>
@@ -37,97 +27,10 @@
               <div class="col-lg-10 col-md-11 mx-auto">
                 <div class="detail-box">
                   <div>
-                    <h3>
-                      AQUI VOCÊ
-                    </h3>
-                    <h2>
-                      ACHA OS MELHORES PERSONAL TRAINERS
-                    </h2>
-                    <h1>
-                      DA SUA REGIÃO
-                    </h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
-                    </p>
+                    <h3> ENCONTRE </h3> <h2> O LUGAR </h2> <h1> CERTO PARA SEU OBJETIVO </h1> <p> Procure academias, estúdios, boxes, centros esportivos e outros estabelecimentos de atividade física perto de você. </p>
                     <div class="">
-                      <a href="">
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="col-lg-10 col-md-11 mx-auto">
-                <div class="detail-box">
-                  <div>
-                    <h3>
-                      FIQUE SABENDO
-                    </h3>
-                    <h2>
-                      DE TODAS SUAS CAPACACITAÇÕES
-                    </h2>
-                    <h1>
-                      É SUA PREFERENCIAS DE TREINO
-                    </h1>
-                    <p>
-                       AQUI VOCÊ FICA SABENDO DE TODOS AS CAPACITAÇÕES DOS PERSONAIS TRAINER SUA ESPECIALIDADE E OS VALALORES COBRADOS POR AULA
-                    </p>
-                    <div class="">
-                      <a href="">
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="col-lg-10 col-md-11 mx-auto">
-                <div class="detail-box">
-                  <div>
-                    <h3>
-                      ENTRE EM CONTATO
-                    </h3>
-                    <h2>
-                      COM QUALQUER PERSONAL TRAINER
-                    </h2>
-                    <h1>
-                      DA SUA REGIÃO
-                    </h1>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
-                    </p>
-                    <div class="">
-                      <a href="">
-                        Contact Us
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container">
-              <div class="col-lg-10 col-md-11 mx-auto">
-                <div class="detail-box">
-                  <div>
-                    <h3>
-                      REGISTRE SE COMO PERSONAL TRAINER
-                    </h3>
-
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
-                    </p>
-                    <div class="">
-                      <a href="">
-                        entre em cantato
+                      <a href="/estabelecimentos">
+                        ENCONTRAR ESTABELECIMENTOS
                       </a>
                     </div>
                   </div>
@@ -139,9 +42,6 @@
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
       </div>
     </section>
