@@ -16,7 +16,7 @@
 
     </div>
 @endsection
-
+web
 @section('assets')
 <style>
     /*

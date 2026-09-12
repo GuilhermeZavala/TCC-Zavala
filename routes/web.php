@@ -16,7 +16,9 @@ use App\Http\Controllers\PostController;
 
 Route::get('/', function () {
     $profissionais = App\Models\Profissional::all();
-    return view('pagina_inicial',compact('profissionais'));
+    $estabelecimentos = App\Models\Estabelecimento::all();
+    $servicos = App\Models\Servico::all();
+    return view('pagina_inicial',compact('profissionais','estabelecimentos','servicos'));
 });
 
 Route::get('/profissionais/{id}', function ($id) {
@@ -27,6 +29,11 @@ Route::get('/profissionais/{id}', function ($id) {
 Route::get('/profissionais', function () {
     $profissionais = App\Models\Profissional::all();
     return view('profissionais', compact('profissionais'));
+});
+
+Route::get('/estabelecimentos', function () {
+    $estabelecimentos = App\Models\Estabelecimento::all();
+    return view('estabelecimentos', compact('estabelecimentos'));
 });
 
 

@@ -106,7 +106,49 @@
     <!-- end header section -->
   @yield("conteudo")
   <!-- end info_section -->
-
+<!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="info_items">
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-1">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                JARDIM E REGIÃO
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-2">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                +67 992960944
+              </p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="item ">
+            <div class="img-box box-3">
+              <img src="" alt="">
+            </div>
+            <div class="detail-box">
+              <p>
+                Guilherme.zavala@estudante.ifms.edu.br
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
   <!-- footer section -->
   <footer class="container-fluid footer_section">
     <p>

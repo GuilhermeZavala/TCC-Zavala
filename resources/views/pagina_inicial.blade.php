@@ -55,72 +55,29 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          INSTRUTORES
+          ESTABELECIMENTOS
         </h2>
       </div>
 
       <div class="us_container ">
         <div class="row">
-          <div class="col-lg-3 col-md-6">
+          @foreach ($estabelecimentos as $estabelecimento)
+<div class="col-lg-3 col-md-6">
             <div class="box">
               <div class="img-box">
-                <img src="/images/u-1.png" alt="">
+                <img src="{{ Voyager::image($estabelecimento->foto) }}" alt="">
               </div>
               <div class="detail-box">
                 <h5>
-                  EQUIPAMENTO DE QUALIDADE
+                {{ $estabelecimento->nome }}
                 </h5>
                 <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  {{ $estabelecimento->endereco }}
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="/images/u-4.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  NUTRIÇÃO
-                </h5>
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="/images/u-2.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  PLANO DE DIETA SAUDAVEL
-                </h5>
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="box">
-              <div class="img-box">
-                <img src="/images/u-3.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  TREINAMENTO SPORTIVO
-                </h5>
-                <p>
-                  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-              </div>
-            </div>
-          </div>
+          @endforeach
         </div>
       </div>
     </div>
@@ -138,16 +95,29 @@
         <div class="col-md-12 mx-auto">
           <div class="detail-box">
             <h2>
-              MENTE SAUDAVEL CORPO SAUDAVEL
+              SERVIÇOS
             </h2>
-            <p>
-
-            </p>
-            <div class="btn-box">
-              <a href="">
-                READ MORE
-              </a>
+<div class="us_container ">
+        <div class="row">
+          @foreach ($servicos as $servico)
+<div class="col-lg-3 col-md-6">
+            <div class="box">
+              <div class="img-box">
+                <img src="{{ Voyager::image($servico->icone) }}" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                {{ $servico->titulo }}
+                </h5>
+                <p>
+                  {!! $servico->descricao !!}
+                </p>
+              </div>
             </div>
+          </div>
+          @endforeach
+        </div>
+      </div>
           </div>
         </div>
       </div>
@@ -203,90 +173,9 @@
 
   <!-- contact section -->
 
-  <section class="contact_section ">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 px-0">
-          <div class="img-box">
-            <img src="/images/contact-img.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-5 col-md-6">
-          <div class="form_container pr-0 pr-lg-5 mr-0 mr-lg-2">
-            <div class="heading_container">
-              <h2>
-                CONTATE-NOS
-              </h2>
-            </div>
-            <form action="">
-              <div>
-                <input type="text" placeholder="Name" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="d-flex ">
-                <button>
-                  ENVIAR
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- end contact section -->
 
-  <!-- info section -->
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="info_items">
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-1">
-              <img src="" alt="">
-            </div>
-            <div class="detail-box">
-              <p>
-                JARDIM E REGIÃO
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-2">
-              <img src="" alt="">
-            </div>
-            <div class="detail-box">
-              <p>
-                +67 992960944
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-3">
-              <img src="" alt="">
-            </div>
-            <div class="detail-box">
-              <p>
-                Guilherme.zavala@estudante.ifms.edu.br
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
+  
 
 @endsection
