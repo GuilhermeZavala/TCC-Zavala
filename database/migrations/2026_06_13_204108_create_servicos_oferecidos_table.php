@@ -16,9 +16,7 @@ return new class extends Migration
         Schema::create('servicos_oferecidos', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('servico_id')->nullable();
-            $table->float('preco_total', 10, 0)->nullable();
             $table->integer('profissional_id')->nullable();
-            $table->float('comissao', 10, 0)->nullable();
         });
     }
 

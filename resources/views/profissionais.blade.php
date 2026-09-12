@@ -14,6 +14,8 @@
         @foreach ($profissionais as $profissional )
             <div class="col-lg-4 col-md-6 mx-auto">
           <div class="box">
+                            <a href="/profissionais/{{ $profissional -> id }}" class="text-reset">
+
             <div class="name">
               <h5>
                 {{$profissional->nome  }}
@@ -22,6 +24,7 @@
             <div class="img-box">
               <img src="{{Voyager::image($profissional->foto)  }}" alt="">
             </div>
+            </a>
             <div class="social_box">
               <a href="{{ $profissional->whatsapp }}">
                 <img src="/images/logos/whatsapp-logo.png" alt="">

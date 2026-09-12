@@ -20,4 +20,12 @@ class Certificacao extends Model
 
         return parent::save();
     }
+    public function scopeProfissional($query)
+    {
+        $user = Auth::user();
+        if ($user->hasRole('admin')) {
+            return $query;
+        }
+        return $query->where('profissional_id', $user->getKey());
+    }
 }

@@ -13,11 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('servicos', function (Blueprint $table) {
+        Schema::create('profissional_especialidade', function (Blueprint $table) {
             $table->increments('id');
-            $table->text('titulo')->nullable();
-            $table->text('descricao')->nullable();
-            $table->timestamps();
+            $table->integer('profissional_id')->nullable();
+            $table->integer('especialidade_id')->nullable();
         });
     }
 
@@ -28,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('servicos');
+        Schema::dropIfExists('profissional_especialidade');
     }
 };

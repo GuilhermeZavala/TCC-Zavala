@@ -141,9 +141,9 @@ class IseedDataTypesTableSeeder extends Seeder
                 'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":"usuario"}',
                 'created_at' => '2026-05-30 19:44:25',
-                'updated_at' => '2026-05-30 20:29:22',
+                'updated_at' => '2026-09-12 21:57:27',
             ),
             7 => 
             array (
@@ -159,9 +159,9 @@ class IseedDataTypesTableSeeder extends Seeder
                 'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":"profissional"}',
                 'created_at' => '2026-06-06 20:02:39',
-                'updated_at' => '2026-06-06 20:04:16',
+                'updated_at' => '2026-09-12 20:12:23',
             ),
             8 => 
             array (
@@ -213,9 +213,9 @@ class IseedDataTypesTableSeeder extends Seeder
                 'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 0,
-                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null}',
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2026-06-13 20:19:30',
-                'updated_at' => '2026-06-13 20:19:30',
+                'updated_at' => '2026-09-12 21:35:50',
             ),
             11 => 
             array (
@@ -233,7 +233,7 @@ class IseedDataTypesTableSeeder extends Seeder
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
                 'created_at' => '2026-06-13 20:22:41',
-                'updated_at' => '2026-06-13 20:30:13',
+                'updated_at' => '2026-09-12 21:36:14',
             ),
             12 => 
             array (

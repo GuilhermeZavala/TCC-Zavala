@@ -19,10 +19,16 @@ Route::get('/', function () {
     return view('pagina_inicial',compact('profissionais'));
 });
 
-Route::get('profissionais', function () {
+Route::get('/profissionais/{id}', function ($id) {
+    $profissional = App\Models\Profissional::find($id);
+    return view('profissional', compact('profissional'));
+});
+
+Route::get('/profissionais', function () {
     $profissionais = App\Models\Profissional::all();
     return view('profissionais', compact('profissionais'));
 });
+
 
 
 Route::resource('postagens', PostController::class)->only([

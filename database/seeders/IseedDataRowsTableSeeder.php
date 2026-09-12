@@ -1216,7 +1216,7 @@ class IseedDataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{"model":"App\\\\Models\\\\Profissional","table":"profissionais","type":"belongsTo","column":"profissional_id","key":"id","label":"nome","pivot_table":"categories","pivot":"0","taggable":null}',
+                'details' => '{"model":"App\\\\Models\\\\Profissional","table":"profissionais","type":"belongsTo","column":"profissional_id","key":"id","label":"nome","pivot_table":"categories","pivot":"0","taggable":"0"}',
                 'order' => 8,
             ),
             75 => 
@@ -1461,38 +1461,6 @@ class IseedDataRowsTableSeeder extends Seeder
             ),
             90 => 
             array (
-                'id' => 91,
-                'data_type_id' => 12,
-                'field' => 'frequencia',
-                'type' => 'number',
-                'display_name' => 'Frequencia',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 4,
-            ),
-            91 => 
-            array (
-                'id' => 92,
-                'data_type_id' => 12,
-                'field' => 'desconto',
-                'type' => 'number',
-                'display_name' => 'Desconto',
-                'required' => 0,
-                'browse' => 0,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 5,
-            ),
-            92 => 
-            array (
                 'id' => 93,
                 'data_type_id' => 12,
                 'field' => 'created_at',
@@ -1507,7 +1475,7 @@ class IseedDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 6,
             ),
-            93 => 
+            91 => 
             array (
                 'id' => 94,
                 'data_type_id' => 12,
@@ -1523,7 +1491,7 @@ class IseedDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 7,
             ),
-            94 => 
+            92 => 
             array (
                 'id' => 95,
                 'data_type_id' => 14,
@@ -1539,23 +1507,7 @@ class IseedDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 1,
             ),
-            95 => 
-            array (
-                'id' => 97,
-                'data_type_id' => 14,
-                'field' => 'preco_total',
-                'type' => 'number',
-                'display_name' => 'Preco Total',
-                'required' => 0,
-                'browse' => 1,
-                'read' => 1,
-                'edit' => 1,
-                'add' => 1,
-                'delete' => 1,
-                'details' => '{}',
-                'order' => 3,
-            ),
-            96 => 
+            93 => 
             array (
                 'id' => 98,
                 'data_type_id' => 14,
@@ -1571,7 +1523,7 @@ class IseedDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 2,
             ),
-            97 => 
+            94 => 
             array (
                 'id' => 99,
                 'data_type_id' => 14,
@@ -1587,21 +1539,69 @@ class IseedDataRowsTableSeeder extends Seeder
                 'details' => '{}',
                 'order' => 4,
             ),
-            98 => 
+            95 => 
             array (
-                'id' => 100,
-                'data_type_id' => 14,
-                'field' => 'comissao',
-                'type' => 'number',
-                'display_name' => 'Comissão',
+                'id' => 101,
+                'data_type_id' => 8,
+                'field' => 'usuario_id',
+                'type' => 'text',
+                'display_name' => 'Usuario Id',
+                'required' => 0,
+                'browse' => 0,
+                'read' => 0,
+                'edit' => 0,
+                'add' => 0,
+                'delete' => 0,
+                'details' => '{}',
+                'order' => 13,
+            ),
+            96 => 
+            array (
+                'id' => 102,
+                'data_type_id' => 8,
+                'field' => 'profissionai_belongsto_user_relationship',
+                'type' => 'relationship',
+                'display_name' => 'usuario',
                 'required' => 0,
                 'browse' => 1,
                 'read' => 1,
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
-                'order' => 5,
+                'details' => '{"scope":"usuario","model":"App\\\\Models\\\\User","table":"users","type":"belongsTo","column":"usuario_id","key":"id","label":"name","pivot_table":"categories","pivot":"0","taggable":"0"}',
+                'order' => 14,
+            ),
+            97 => 
+            array (
+                'id' => 103,
+                'data_type_id' => 8,
+                'field' => 'profissionai_belongstomany_especialidade_relationship',
+                'type' => 'relationship',
+                'display_name' => 'especialidades',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\Models\\\\Especialidade","table":"especialidades","type":"belongsToMany","column":"id","key":"id","label":"nome","pivot_table":"profissional_especialidade","pivot":"1","taggable":"on"}',
+                'order' => 15,
+            ),
+            98 => 
+            array (
+                'id' => 104,
+                'data_type_id' => 8,
+                'field' => 'profissionai_belongstomany_servico_relationship',
+                'type' => 'relationship',
+                'display_name' => 'servicos',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\Models\\\\Servico","table":"servicos","type":"belongsToMany","column":"id","key":"id","label":"titulo","pivot_table":"servicos_oferecidos","pivot":"1","taggable":"on"}',
+                'order' => 16,
             ),
         ));
         

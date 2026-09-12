@@ -25,6 +25,7 @@ return new class extends Migration
             $table->timestamps();
             $table->text('linkedin')->nullable();
             $table->text('youtube')->nullable();
+            $table->integer('usuario_id')->nullable();
         });
     }
 
