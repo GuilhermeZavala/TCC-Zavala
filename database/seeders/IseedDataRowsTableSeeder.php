@@ -1603,6 +1603,22 @@ class IseedDataRowsTableSeeder extends Seeder
                 'details' => '{"model":"App\\\\Models\\\\Servico","table":"servicos","type":"belongsToMany","column":"id","key":"id","label":"titulo","pivot_table":"servicos_oferecidos","pivot":"1","taggable":"on"}',
                 'order' => 16,
             ),
+            99 => 
+            array (
+                'id' => 105,
+                'data_type_id' => 8,
+                'field' => 'profissionai_belongstomany_estabelecimento_relationship',
+                'type' => 'relationship',
+                'display_name' => 'estabelecimentos',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\Models\\\\Estabelecimento","table":"estabelecimentos","type":"belongsToMany","column":"id","key":"id","label":"nome","pivot_table":"profissional_estabelicimento","pivot":"1","taggable":"on"}',
+                'order' => 17,
+            ),
         ));
         
         
